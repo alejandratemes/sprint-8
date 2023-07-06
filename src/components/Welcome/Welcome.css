@@ -1,0 +1,45 @@
+.home-text {
+    width: 60%;
+    text-align: center;
+}
+
+.home-container {
+    background-size: cover;
+    background-position: initial;
+    background-attachment: scroll;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+.btn-home {
+    align-items: center;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 40px 40px white inset, 0 0 0 0 white;
+    color: black;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    gap: 1rem;
+    justify-content: center;
+    padding: 0.7rem;
+    position: fixed;
+    text-decoration: none;
+    transition: all 150ms ease-in-out;
+    width: 200px;
+    margin-top: 50vh;
+}
+
+.btn-home:hover {
+    box-shadow: 0 0 10px 0 antiquewhite inset, 0 0 10px 4px antiquewhite;
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .btn-home {
+        font-size: 0.8rem;
+        width: 125px;
+    }
+}
